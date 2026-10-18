@@ -1,0 +1,493 @@
+{
+ "totals": {
+  "agree": 5308,
+  "organ_only": 1096,
+  "disagree": 40
+ },
+ "per_specialist": {
+  "acoustics": {
+   "agree": 69,
+   "family": "acoustics"
+  },
+  "airquality": {
+   "agree": 38,
+   "family": "climate"
+  },
+  "carboncapture": {
+   "agree": 14,
+   "family": "climate"
+  },
+  "carbonmat": {
+   "agree": 17,
+   "family": "climate"
+  },
+  "climate": {
+   "agree": 24,
+   "family": "climate"
+  },
+  "coldchain-v2": {
+   "agree": 30,
+   "family": "climate"
+  },
+  "coldchain": {
+   "agree": 30,
+   "family": "climate"
+  },
+  "cyber": {
+   "agree": 19,
+   "organ_only": 1,
+   "family": "computing"
+  },
+  "embedded": {
+   "agree": 25,
+   "family": "computing"
+  },
+  "git": {
+   "agree": 10,
+   "family": "computing"
+  },
+  "linux-v2": {
+   "agree": 42,
+   "family": "computing"
+  },
+  "networking": {
+   "agree": 71,
+   "family": "computing"
+  },
+  "python-r2": {
+   "agree": 224,
+   "family": "computing"
+  },
+  "python": {
+   "agree": 224,
+   "family": "computing"
+  },
+  "robotics-v2": {
+   "agree": 22,
+   "disagree": 1,
+   "family": "computing"
+  },
+  "sql": {
+   "agree": 58,
+   "disagree": 3,
+   "family": "computing"
+  },
+  "algorithms": {
+   "agree": 42,
+   "family": "discrete"
+  },
+  "calculus": {
+   "agree": 62,
+   "family": "discrete"
+  },
+  "dataformats": {
+   "agree": 93,
+   "family": "discrete"
+  },
+  "games-v3": {
+   "agree": 18,
+   "family": "discrete"
+  },
+  "logic-v3": {
+   "agree": 12,
+   "family": "discrete"
+  },
+  "electrical": {
+   "agree": 24,
+   "family": "emoptics"
+  },
+  "electronics-r2": {
+   "agree": 111,
+   "family": "emoptics"
+  },
+  "electronics": {
+   "agree": 111,
+   "family": "emoptics"
+  },
+  "optics-v2": {
+   "agree": 66,
+   "family": "emoptics"
+  },
+  "optics-v3": {
+   "agree": 59,
+   "disagree": 8,
+   "family": "emoptics"
+  },
+  "optics-v5-r2": {
+   "agree": 58,
+   "disagree": 7,
+   "family": "emoptics"
+  },
+  "optics-v5": {
+   "agree": 58,
+   "disagree": 7,
+   "family": "emoptics"
+  },
+  "optics": {
+   "agree": 52,
+   "disagree": 9,
+   "family": "emoptics"
+  },
+  "wiring": {
+   "agree": 45,
+   "family": "emoptics"
+  },
+  "energy-v2": {
+   "agree": 74,
+   "family": "energy"
+  },
+  "energy-v3": {
+   "agree": 68,
+   "disagree": 2,
+   "family": "energy"
+  },
+  "hvac": {
+   "agree": 42,
+   "family": "energy"
+  },
+  "iot": {
+   "agree": 27,
+   "family": "energy"
+  },
+  "renewables": {
+   "agree": 26,
+   "family": "energy"
+  },
+  "thermo": {
+   "agree": 50,
+   "family": "energy"
+  },
+  "arthistory": {
+   "agree": 11,
+   "family": "facts"
+  },
+  "botany": {
+   "agree": 9,
+   "family": "facts"
+  },
+  "childdev": {
+   "agree": 9,
+   "family": "facts"
+  },
+  "entomology": {
+   "agree": 9,
+   "family": "facts"
+  },
+  "etiquette": {
+   "agree": 9,
+   "family": "facts"
+  },
+  "firesafety-v2": {
+   "agree": 10,
+   "family": "facts"
+  },
+  "firstaid": {
+   "agree": 9,
+   "family": "facts"
+  },
+  "javascript": {
+   "agree": 10,
+   "family": "facts"
+  },
+  "law": {
+   "agree": 9,
+   "family": "facts"
+  },
+  "linguistics": {
+   "agree": 11,
+   "family": "facts"
+  },
+  "literature-v2": {
+   "agree": 12,
+   "family": "facts"
+  },
+  "marinebio": {
+   "agree": 9,
+   "family": "facts"
+  },
+  "medicine-r2": {
+   "agree": 9,
+   "family": "facts"
+  },
+  "medicine": {
+   "agree": 9,
+   "family": "facts"
+  },
+  "mycelial": {
+   "agree": 7,
+   "family": "facts"
+  },
+  "mycology": {
+   "agree": 9,
+   "family": "facts"
+  },
+  "ornithology": {
+   "agree": 9,
+   "family": "facts"
+  },
+  "pets": {
+   "agree": 9,
+   "family": "facts"
+  },
+  "poetry": {
+   "agree": 9,
+   "family": "facts"
+  },
+  "psychology": {
+   "agree": 9,
+   "family": "facts"
+  },
+  "sociology": {
+   "agree": 9,
+   "family": "facts"
+  },
+  "worldhistory": {
+   "agree": 11,
+   "family": "facts"
+  },
+  "geometry-v3": {
+   "agree": 100,
+   "family": "geostats"
+  },
+  "geometry-v4": {
+   "agree": 93,
+   "family": "geostats"
+  },
+  "geometry": {
+   "agree": 97,
+   "family": "geostats"
+  },
+  "statistics-v2": {
+   "agree": 144,
+   "family": "geostats"
+  },
+  "statistics-v3": {
+   "agree": 144,
+   "family": "geostats"
+  },
+  "statistics": {
+   "agree": 142,
+   "family": "geostats"
+  },
+  "government": {
+   "agree": 14,
+   "family": "humanities"
+  },
+  "grammar": {
+   "agree": 15,
+   "family": "humanities"
+  },
+  "library": {
+   "agree": 15,
+   "family": "humanities"
+  },
+  "music-v2-r2": {
+   "agree": 64,
+   "family": "humanities"
+  },
+  "music-v2": {
+   "agree": 64,
+   "family": "humanities"
+  },
+  "mythology": {
+   "agree": 13,
+   "family": "humanities"
+  },
+  "ushistory": {
+   "agree": 12,
+   "family": "humanities"
+  },
+  "biology": {
+   "agree": 15,
+   "family": "life"
+  },
+  "ecology": {
+   "agree": 13,
+   "family": "life"
+  },
+  "forestry": {
+   "agree": 16,
+   "family": "life"
+  },
+  "genetics-v2": {
+   "agree": 20,
+   "family": "life"
+  },
+  "microbiology-v2": {
+   "agree": 13,
+   "family": "life"
+  },
+  "wildlife": {
+   "agree": 9,
+   "family": "life"
+  },
+  "additive-v2": {
+   "agree": 20,
+   "family": "materials"
+  },
+  "materials-v2": {
+   "agree": 24,
+   "family": "materials"
+  },
+  "soil-r2": {
+   "agree": 36,
+   "family": "materials"
+  },
+  "soil": {
+   "agree": 36,
+   "family": "materials"
+  },
+  "water": {
+   "agree": 47,
+   "family": "materials"
+  },
+  "bodies-v2": {
+   "agree": 38,
+   "family": "mechanics"
+  },
+  "fleet": {
+   "agree": 54,
+   "family": "mechanics"
+  },
+  "fluids-r2": {
+   "agree": 34,
+   "family": "mechanics"
+  },
+  "mechanisms-v2": {
+   "agree": 55,
+   "family": "mechanics"
+  },
+  "mechanisms": {
+   "agree": 64,
+   "family": "mechanics"
+  },
+  "physics-r2": {
+   "agree": 123,
+   "family": "mechanics"
+  },
+  "physics-r3": {
+   "agree": 123,
+   "family": "mechanics"
+  },
+  "physics": {
+   "agree": 123,
+   "family": "mechanics"
+  },
+  "sports": {
+   "agree": 18,
+   "disagree": 1,
+   "family": "mechanics"
+  },
+  "densities": {
+   "agree": 51,
+   "family": "quantity"
+  },
+  "fluids": {
+   "agree": 34,
+   "family": "quantity"
+  },
+  "fuels": {
+   "agree": 42,
+   "family": "quantity"
+  },
+  "springs": {
+   "agree": 42,
+   "family": "quantity"
+  },
+  "units-v3": {
+   "agree": 75,
+   "family": "quantity"
+  },
+  "units": {
+   "agree": 76,
+   "family": "quantity"
+  },
+  "astronomy-v2": {
+   "agree": 138,
+   "family": "space"
+  },
+  "astronomy-v3-r2": {
+   "agree": 138,
+   "family": "space"
+  },
+  "astronomy-v3": {
+   "agree": 138,
+   "family": "space"
+  },
+  "astronomy": {
+   "agree": 81,
+   "family": "space"
+  },
+  "orbits": {
+   "agree": 35,
+   "family": "space"
+  },
+  "planetary": {
+   "agree": 18,
+   "family": "space"
+  },
+  "spacecomms": {
+   "agree": 36,
+   "family": "space"
+  },
+  "spacecraft": {
+   "agree": 21,
+   "family": "space"
+  },
+  "cooking-v2": {
+   "organ_only": 145,
+   "agree": 65,
+   "family": "stores"
+  },
+  "cooking-v3-r2": {
+   "organ_only": 216,
+   "agree": 12,
+   "family": "stores"
+  },
+  "cooking-v3": {
+   "organ_only": 216,
+   "agree": 12,
+   "family": "stores"
+  },
+  "cooking": {
+   "organ_only": 148,
+   "agree": 70,
+   "family": "stores"
+  },
+  "warehouse-r2": {
+   "organ_only": 185,
+   "agree": 14,
+   "family": "stores"
+  },
+  "warehouse": {
+   "organ_only": 185,
+   "agree": 14,
+   "family": "stores"
+  },
+  "architecture": {
+   "agree": 10,
+   "family": "trades"
+  },
+  "crafts": {
+   "agree": 14,
+   "family": "trades"
+  },
+  "printing-v2": {
+   "agree": 37,
+   "family": "trades"
+  },
+  "printing": {
+   "agree": 34,
+   "disagree": 2,
+   "family": "trades"
+  },
+  "safety": {
+   "agree": 45,
+   "family": "trades"
+  },
+  "woodworking": {
+   "agree": 36,
+   "family": "trades"
+  }
+ }
+}
