@@ -26,11 +26,11 @@ The kernels ship in the release under `specialists/_proved/` (static Linux x86-6
 
 ## How they were measured
 
-- `parity_box5.sh`: every built kernel over the held-out exams of the Oracle7 specialists it stands in for (6,444
-  questions, 6,816 with chemistry and anatomyagri), scored by each specialist's own scorer with this repository's parity harness. Held-out exams are read, not spent.
+- `parity_box5.sh`: every built kernel over the held-out exams of the Oracle7 specialists it stands in for (7,172 questions), scored by each specialist's own scorer with this repository's parity harness. Held-out exams are read, not spent.
 - `alone_box5.sh`: the released Python specialists alone over the same questions.
-- `agree_box5.py`: item by item. The kernels and the specialists gave the same answer value on every question both answered,
-  apart from display rounding; there the kernels' exact rational arithmetic was the better (a Python float stores 0.675 as
+- `agree_box5.py`: item by item. The kernels and the specialists gave the same answer value on every question both answered
+  (40 apparent differences: display rounding, where the kernels' exact rational arithmetic was the better, and working
+  written in ASCII rather than Unicode) (a Python float stores 0.675 as
   0.67499..., so the specialist printed 0.67 where the kernel printed 0.68).
 
 Credit: the kernels, proofs and parity harness are ember arlynx's work. The build, measurement and release wiring in
