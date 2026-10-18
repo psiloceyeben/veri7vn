@@ -17,16 +17,17 @@ The kernels ship in the release under `specialists/_proved/` (static Linux x86-6
 ## How the kernels were built (`oracle7/`)
 
 - `build_all_box5.sh`: one `isabelle build` over every family session (Isabelle2026-RC1 on Linux; the proofs are checked
-  during the build), then each family's own `build.sh` to export the generated SML and compile it. 18 of 20 families built;
-  `chemistry` and `anatomyagri` stop in MLton on a type the compiler cannot generalise in their recognizer cache (their proofs
-  are unaffected).
+  during the build), then each family's own `build.sh` to export the generated SML and compile it. All proofs checked;
+  `chemistry` and `anatomyagri` first failed to compile because their `build.sh` names a `regex.sml` that a later commit
+  removed from their folders; each was linked with its own family's file restored from git history (the parent of the commit
+  that deleted it). 19 families, standing in for 128 Oracle7 specialists.
 - `static_box5.sh`: the same `.mlb` files linked statically, so the binaries need no particular glibc or libgmp.
 - `make_proved_json.py`: the map from Oracle7 specialist id to kernel binary, with the source commit and checksums.
 
 ## How they were measured
 
 - `parity_box5.sh`: every built kernel over the held-out exams of the Oracle7 specialists it stands in for (6,444
-  questions), scored by each specialist's own scorer with this repository's parity harness. Held-out exams are read, not spent.
+  questions, 6,816 with chemistry and anatomyagri), scored by each specialist's own scorer with this repository's parity harness. Held-out exams are read, not spent.
 - `alone_box5.sh`: the released Python specialists alone over the same questions.
 - `agree_box5.py`: item by item. The kernels and the specialists gave the same answer value on every question both answered,
   apart from display rounding; there the kernels' exact rational arithmetic was the better (a Python float stores 0.675 as

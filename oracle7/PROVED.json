@@ -1,19 +1,21 @@
 {
  "what": "veri7vn proved kernels standing in for Oracle7 specialists, used by fold w551 as a cross-check (a reply is marked proved when its kernel agrees, withheld when its kernel answers differently, unchanged otherwise).",
  "source": "https://github.com/emberian/veri7vn (fork https://github.com/psiloceyeben/veri7vn)",
- "commit": "fc3ab3a68948ff780bd4a9785df24295991c87db",
+ "commit": "3bf43cff8eaa1c30db2659d186cdcffe9c4f6c61",
  "licence": "CC0-1.0",
  "author": "ember arlynx",
  "build": "Isabelle2026-RC1 sessions built (proofs checked) on the research box, generated Standard ML exported and linked statically with the MLton shipped in Isabelle (Linux x86-64).",
  "parity": {
-  "heldout_questions": 6444,
-  "agree": 5308,
+  "heldout_questions": 7172,
+  "agree": 6036,
   "organ_only": 1096,
   "disagree": 40,
   "note": "same held-out items; agree = same answer value (or both withheld); the disagreements measured were display rounding and ASCII vs Unicode working, not different answers"
  },
  "binaries": {
   "acoustics": "4f22f4159849938674cbb4da325c7cde322f026b70306ea2f242bae05fd137b9",
+  "anatomyagri": "99df1f11b3920fc81f9462ffcf7e207f46da5309a9f96c3de3d9d371a8ba0fdd",
+  "chemistry": "e1292ae5a7fbc67ceeb94c38a0c9172379214a2ff7005ee1c9685e6ba460343c",
   "climate": "15de19eb7a04447e23a7aa155ff05978c40f4ffb6d85163ddf7f9e143bcd5a92",
   "computing": "52ff108928f06ee64ef41c34599027f0e98f1ac28964a4d227fa0d2b191e3f5c",
   "discrete": "555718394b624bec0a90615ba3feef312c5fd0bb037ca05b155602a4e28e0a37",
@@ -37,6 +39,66 @@
    "flag": false,
    "family": "acoustics",
    "session": "Veri7vn_Acoustics"
+  },
+  "anatomy": {
+   "binary": "anatomyagri",
+   "flag": true,
+   "family": "anatomyagri",
+   "session": "Veri7vn_AnatomyAgri"
+  },
+  "anatomy-r2": {
+   "binary": "anatomyagri",
+   "flag": true,
+   "family": "anatomyagri",
+   "session": "Veri7vn_AnatomyAgri"
+  },
+  "agriculture-v2": {
+   "binary": "anatomyagri",
+   "flag": true,
+   "family": "anatomyagri",
+   "session": "Veri7vn_AnatomyAgri"
+  },
+  "gardening": {
+   "binary": "anatomyagri",
+   "flag": true,
+   "family": "anatomyagri",
+   "session": "Veri7vn_AnatomyAgri"
+  },
+  "nutrition-label-v2": {
+   "binary": "anatomyagri",
+   "flag": true,
+   "family": "anatomyagri",
+   "session": "Veri7vn_AnatomyAgri"
+  },
+  "chemistry": {
+   "binary": "chemistry",
+   "flag": true,
+   "family": "chemistry",
+   "session": "Veri7vn_Chemistry"
+  },
+  "chemistry-v3": {
+   "binary": "chemistry",
+   "flag": true,
+   "family": "chemistry",
+   "session": "Veri7vn_Chemistry"
+  },
+  "decay": {
+   "binary": "chemistry",
+   "flag": true,
+   "family": "chemistry",
+   "session": "Veri7vn_Chemistry"
+  },
+  "labsolutions": {
+   "binary": "chemistry",
+   "flag": true,
+   "family": "chemistry",
+   "session": "Veri7vn_Chemistry"
+  },
+  "labsolutions-r2": {
+   "binary": "chemistry",
+   "flag": true,
+   "family": "chemistry",
+   "session": "Veri7vn_Chemistry"
   },
   "carboncapture": {
    "binary": "climate",

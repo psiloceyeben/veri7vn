@@ -1,6 +1,6 @@
 {
  "totals": {
-  "agree": 5308,
+  "agree": 6036,
   "organ_only": 1096,
   "disagree": 40
  },
@@ -8,6 +8,46 @@
   "acoustics": {
    "agree": 69,
    "family": "acoustics"
+  },
+  "agriculture-v2": {
+   "agree": 17,
+   "family": "anatomyagri"
+  },
+  "anatomy-r2": {
+   "agree": 11,
+   "family": "anatomyagri"
+  },
+  "anatomy": {
+   "agree": 11,
+   "family": "anatomyagri"
+  },
+  "gardening": {
+   "agree": 15,
+   "family": "anatomyagri"
+  },
+  "nutrition-label-v2": {
+   "agree": 16,
+   "family": "anatomyagri"
+  },
+  "chemistry-v3": {
+   "agree": 281,
+   "family": "chemistry"
+  },
+  "chemistry": {
+   "agree": 281,
+   "family": "chemistry"
+  },
+  "decay": {
+   "agree": 42,
+   "family": "chemistry"
+  },
+  "labsolutions-r2": {
+   "agree": 27,
+   "family": "chemistry"
+  },
+  "labsolutions": {
+   "agree": 27,
+   "family": "chemistry"
   },
   "airquality": {
    "agree": 38,
